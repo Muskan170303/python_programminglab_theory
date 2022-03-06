@@ -1,0 +1,15 @@
+""" WAP to input electricity units used and calculate bill accordingly:
+    1.) For first 50 units => Rs 50 paise/units.
+    2.) For next 100 units => Rs 75 paise/units.
+    3.) For next 100 units => Rs 1.2/units.
+    4>) For above 250 units => Rs 1.5/units.  """
+un=int(input("Enter the number of electricity units : "))
+if(un<=50):
+    cost=un*0.5
+elif(un<=150):
+    cost=50*0.5+(un-50)*0.75
+elif(un<=250):
+    cost=50*0.5+100*0.75+(un-150)*1.2
+else:
+    cost=50*0.5+100*0.75+100*1.2+(un-250)*1.5
+print("Electricity Bill =Rs ",cost)
