@@ -1,0 +1,16 @@
+""" WAP to generate the salary of an employee where conditions are:
+    1.) If BS<=10000 then HRA=80% of BS and DA=90% of BS.
+    2.) If BS>10000 and BS<=20000 then HRA=85% of BS and DA=90% of BS.
+    3.) If BS>20000 then HRA=95% of BS and DA=95% of BS.  """
+bs=int(input("Enter the basic salary of an employee : "))
+if(bs<=10000):
+    hra=0.8*bs
+    da=0.9*bs
+elif(bs>10000 and bs<=20000):
+    hra=0.85*bs
+    da=0.9*bs
+else:
+    hra=0.95*bs
+    da=0.95*bs
+sal=bs+hra+da
+print("Salary of the given employee =Rs ",sal)
