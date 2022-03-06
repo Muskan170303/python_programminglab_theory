@@ -1,0 +1,12 @@
+# WAP to reverse a three digit number without using loop.
+num=int(input("Enter a three digit number : "))
+rev=0
+r=num%10
+num//=10
+rev=rev*10+r
+r=num%10
+num//=10
+rev=rev*10+r
+r=num%10
+rev=rev*10+r
+print("%d after reversing = %d"%(num,rev))
