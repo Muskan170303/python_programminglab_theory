@@ -1,0 +1,4 @@
+# WAP to multiply a number by 32 using bitwise operator.
+num=int(input("Enter a number to be multiplied by 32 : "))
+pro=num<<5
+print("%d after multiplication by 32 = %d"%(num,pro))
