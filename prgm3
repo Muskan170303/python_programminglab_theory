@@ -1,0 +1,4 @@
+# WAP to check whether a binary number has 1 or 0 as its last digit using bitwise operator.
+bnum=int(input("Enter a binary number : "))
+ld=bnum & 1
+print("last digit of the given binary number =",ld)
