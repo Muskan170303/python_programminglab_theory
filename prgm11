@@ -1,0 +1,9 @@
+# WAP to calculate profit or loss where CP and SP are given by user.
+cp=int(input("Enter the cost price : "))
+sp=int(input("Enter the selling price : "))
+if(sp-cp>0):
+    print("Profit = ",sp-cp)
+elif(sp-cp<0):
+    print("Loss = ",cp-sp)
+else:
+    print("Neither Profit nor Loss.")
