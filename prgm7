@@ -1,0 +1,7 @@
+# WAP to check whether a number is even or odd using bitwise and if...else.
+n=int(input("Enter a number : "))
+if(n & 1):
+    print(n," is odd.")
+else:
+    print(n," is even.")
+    
