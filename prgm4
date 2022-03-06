@@ -1,0 +1,14 @@
+# WAP to find the sum of last three digits of university roll number without using loop.
+ur=int(input("Enter your university roll number : "))
+sum=0
+r=ur%1000
+d=r%10
+r=r//10
+sum+=d
+d=r%10
+r=r//10
+sum+=d
+d=r%10
+r=r//10
+sum+=d
+print("sum of last three digits of the given university roll number =",sum)
