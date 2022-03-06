@@ -1,0 +1,4 @@
+# WAP to multiply a number by 31 using bitwise operator.
+num=int(input("Enter a number to be multiplied by 31 : "))
+pro=(num<<5)-num
+print("%d after multiplication by 31 = %d"%(num,pro))
