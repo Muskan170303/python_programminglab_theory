@@ -1,0 +1,23 @@
+""""
+
+To find whether a given number is magic number or not.
+i.e. sum of digits at odd places = sum of digits at even places
+
+"""
+
+n=int(input("Enter the number : "))
+i=10
+odd=0
+even=0
+while(i!=0):
+    if(i%2==0):
+        even+=n%10
+        n=n//10
+    else:
+        odd+=n%10
+        n=n//10
+    i=i-1
+if(odd==even):
+    print("magic number.")
+else:
+    print("not magic number.")
