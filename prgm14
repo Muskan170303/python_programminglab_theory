@@ -1,0 +1,28 @@
+"""
+   print the following pattern
+
+   *
+   * *
+   * * *
+   * * * *
+   * * * * *
+   1. using single while loop.
+   2. using double while loop.
+"""
+
+#1.
+i=1
+while(i<=5):
+    print("*"*i,end="")
+    print("\n")
+    i+=1
+
+#2.
+i=1
+while(i<=5):
+    j=1
+    while(j<=i):
+        print("*",end="")
+        j+=1
+    print("\n")
+    i+=1
