@@ -1,0 +1,14 @@
+# front*3
+s=input()
+if(len(s)>=3):
+  front=s[:3]
+else:
+  front=s
+print(front*3)
+
+# return not added to front of the string, if already present then return unchanged
+s=input()
+if(s[:3]=="not"):
+  print(s)
+else:
+  print("not "+s)
