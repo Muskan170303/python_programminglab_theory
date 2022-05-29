@@ -1,0 +1,5 @@
+def tag(i,st):
+  print("<%c>%s</%c>")
+t=input("enter the tag style")
+s=input("enter the word to be printed")
+tag(t,s)
