@@ -1,0 +1,20 @@
+#extra end - make 3 copies of the last 2 characters of a string
+s=input()
+l2=s[-2:]
+print(l2*3)
+
+# new string version without first and last character
+s=input()
+l=s[1:-1]
+print(l)
+
+#right2- rotated right version i.e. "hello" yeilds "lohel" : last n characters at the beginning
+n=int(input())
+s=input()
+l1=s[-n:]+s[:-n]
+
+#first and last characters exchanged
+s=input()
+f=s[0]
+l=[-1]
+print(l+s[1:-1]+f)
