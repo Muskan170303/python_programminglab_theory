@@ -1,0 +1,12 @@
+# smallest and largest word in a string
+s=input("enter a string")
+l=s.split()
+small=l[0]
+large=""
+for i in l:
+  if(len(i)>len(large)):
+    large=i
+  elif(len(i)<len(small)):
+    small=i
+print("smallest=%s  largest=%s"%(small,large))
+
