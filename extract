@@ -1,0 +1,4 @@
+#extracting elements with even indices
+l=[1,5,3,6,8,3,6]
+s=l[0::2]
+print(s)
