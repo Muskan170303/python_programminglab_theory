@@ -1,0 +1,8 @@
+# greeting in form i.e. "Hi Muskan!"
+n=input("enter your name : ")
+print("Hi "+n+"!")
+
+# return two strings for example: "hi" and "bye" as "hibyebyehi"
+a=input("first string")
+b=input("second string")
+print(a+b*2+a)
