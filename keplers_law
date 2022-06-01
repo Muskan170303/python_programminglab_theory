@@ -1,0 +1,8 @@
+# cook your dish here
+t=int(input())
+for i in range(t):
+    t1,t2,r1,r2=map(int,input().split())
+    if((t1*t1*r2*r2*r2)==(t2*t2*r1*r1*r1)):
+        print("yes")
+    else:
+        print("no")
