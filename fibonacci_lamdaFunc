@@ -1,0 +1,11 @@
+f=lamda x,y:x+y
+n=int(input("number of terms"))
+print("0")
+print("1")
+n1=0
+n2=1
+for i in range(n-2):
+  c=f(n1,n2)
+  print(c)
+  n1=n2
+  n2=c
