@@ -1,0 +1,12 @@
+try:
+    a=int(input())
+    if(a<0):
+        raise ValueError
+    else:
+        print(a)
+except ValueError:
+    print("ERROR!! - VALUE ERROR")        
+else:
+    print("NO ERROR")
+finally:
+    print("DONE")
