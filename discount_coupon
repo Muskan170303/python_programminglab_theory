@@ -1,0 +1,14 @@
+# cook your dish here
+t=int(input())
+for tc in range(t):
+    n,x,y=map(int,input().split())
+    a=list(map(int,input().split()))
+    c=0
+    s=sum(a)
+    for i in a:
+        if(i>y):
+            c+=i-y
+    if((c+x)<s):
+        print("COUPON")
+    else:
+        print("NO COUPON")
