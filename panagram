@@ -1,0 +1,11 @@
+st="abcdefghijklmnopqrstuvwxyz"
+s=input()
+c=0
+for i in st:
+    if(i in s):
+        c+=1
+    else:
+        print("string is not panagram")
+        break
+if(c==26):
+    print("string is panagram")
