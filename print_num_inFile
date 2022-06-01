@@ -1,0 +1,4 @@
+f=open("abc.txt",'a')
+for i in range(50,501):
+    f.write(i,end=" ")
+f.close()
