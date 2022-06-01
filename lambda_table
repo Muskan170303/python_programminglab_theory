@@ -1,0 +1,5 @@
+f=lambda n,i:n*i
+n=int(input("which number's table"))
+for i in range(1,11):
+    print(n,"*",i,"=",end="")
+    print(f(n,i))
