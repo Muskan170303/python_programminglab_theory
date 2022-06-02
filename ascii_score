@@ -1,0 +1,10 @@
+name=input("enter your first name : ")
+d={}
+s=0
+for i in range(65,92):
+    d[chr(i)]=i
+for j in range(97,124):
+    d[chr(j)]=j
+for c in name:
+    s+=d[c]
+print("Your ASCII_score ="s)
