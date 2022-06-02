@@ -1,0 +1,10 @@
+s=input()
+uc=0
+lc=0
+for i in s:
+    if(ord(i)>=65 and ord(i)<=91):
+        uc+=1
+    elif(ord(i)>=97 and ord(i)<=123):
+        lc+=1
+print("lower case letters = ",lc)
+print("upper case letters = ",uc)
